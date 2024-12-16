@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,47 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
+* **M.Sc**, Moscow Institute of Physics and Technology, *2023 - 2025 (expected)*
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+Department of Radio Engineering and Computer Technology. GPA: 8.53
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **B.Sc**, Moscow Institute of Physics and Technology, *2019 - 2023*
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Department of Radio Engineering and Computer Technology. GPA: 8.40
 
-Publications
-======
+## Experience
+
+* **Huawei RRI**, *July 2021 - Present*
+  * Development of a functional simulator
+  * Toolkit for profiling and analyzing call graphs for RISC architectures based on program execution traces
+  * Development of a verification toolchain for a functional model of a simulator based on a formal specification of the RISC architecture
+  * RISC Architecture design
+  * Supervisor: Petushkov Igor
+
+* **Sirius Summer Internship**, *Aug. 2020*
+  * Program ”Modern methods of information theory, optimization and management”
+  * In direction ”Non-linear digital
+ signal processing at base cell stations” by Huawei with Andrey Vorobyev team
+  * Supervisor: Bakhurin Sergey
+
+## Skills
+* **Programming Languages:** C++, C, Python, JavaScript
+* **Developer Tools:** Git, CMake, make, Linux (Ubuntu/WSL2), Docker/Podman, VS Code
+* **Frameworks:** LLVM IR, Google Test, React, OpenCL
+* **Extra**: excellent communication skills, experience in leading a team of students in the realization of social projects
+* **Languages:** Native: Russian, B2/C1: English
+
+## Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
+
+
+## Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+## Service and leadership
+* Leader of the student music organization [mipt.live](https://vk.com/mipt_live): experience in organizing concerts, public events, grant
